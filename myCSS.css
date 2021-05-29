@@ -1,0 +1,72 @@
+h1{
+    color: cadetblue;
+    font-family: "Trebuchet MS";
+    font-size: 49px;
+}
+.num{
+    background-color:steelblue;
+    color: ghostwhite;
+    border-radius: 6px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-family: "Trebuchet MS"
+}
+
+div{
+    color: steelblue;
+    background-color: ghostwhite;
+    padding: 3px;
+    border: double;
+    width: 218px;
+    align-items: center;
+}
+
+.opp{
+    background-color:navy;
+    color: ghostwhite;
+    border-radius: 6px;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    font-family: "Trebuchet MS"
+}
+
+.extra{
+    background-color:skyblue;
+    color: black;
+    border-radius: 6px;
+    width: fit-content;
+    height: 40px;
+    font-size: 20px;
+    font-family: "Trebuchet MS"
+}
+
+.string{
+    background-color:silver;
+    color: black;
+    border-radius: 6px;
+    width: fit-content;
+    height: 40px;
+    font-size: 20px;
+}
+
+.Mem{
+    background-color:cornflowerblue;
+    color: lightyellow;
+    border-radius: 6px;
+    width: fit-content;
+    height: 40px;
+    font-size: 18px;
+    font-family: "Trebuchet MS"
+}
+#plusMinus{
+    font-size: 22px;
+}
+
+#power{
+    font-size: 27px;
+}
+#previous{
+    font-sizw: 24px;
+}

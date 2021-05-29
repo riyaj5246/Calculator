@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="myJS.js"></script>
+    <link rel="stylesheet" type="text/css" href="myCSS.css">
+</head>
+<body>
+<h1> Calculator</h1>
+<div id="1">
+    <p id="screen2"></p>
+    <p id="screen"> </p>
+</div>
+<br>
+
+<button id="button1" class="num" onclick="button('1')"> 1 </button>
+<button id="button2" class="num" onclick="button('2')"> 2 </button>
+<button id="button3" class="num" onclick="button('3')"> 3 </button>
+<button id="plusMinus" class="extra" onclick="negative()"> +/- </button>
+<button id="plus" class="opp" onclick="Operation('+')"> + </button>
+
+
+<br>
+<button id="button4" class="num" onclick="button('4')"> 4 </button>
+<button id="button5" class="num" onclick="button('5')"> 5 </button>
+<button id="button6" class="num" onclick="button('6')"> 6 </button>
+<button id="reciprocal" class="extra" onclick="reciprocal()"> 1/x </button>
+<button id="minus" class="opp" onclick="Operation('-')"> - </button>
+
+<br>
+<button id="button7" class="num" onclick="button('7')"> 7 </button>
+<button id="button8" class="num" onclick="button('8')"> 8 </button>
+<button id="button9" class="num" onclick="button('9')"> 9 </button>
+<button id="clear" class="string" onclick="clearScreen()"> Clr. </button>
+<button id="multiply" class="opp" onclick="Operation('*')"> * </button>
+
+<br>
+<button id="button0" class="num" onclick="button('0')"> 0 </button>
+<button id="squareRoot" class="extra" onclick="Sqrt()">  Sqr Rt. </button>
+<button id="delete" class="string" onclick="del()"> Del. </button>
+<button id="divide" class="opp" onclick="Operation('/')"> / </button>
+
+<br>
+<button id="previous" class="string" onclick="previousAns()"> Previous  Ans.</button>
+<button id="power" class="extra" onclick="Operation('^')"> ^ </button>
+<button id="equal" class="opp" onclick="equal()"> = </button>
+
+<br>
+<button id="memStorage" class="Mem" onclick="Storage()"> Store Num </button>
+<button id="getStorage" class="Mem" onclick="printStorage()"> Get Memory</button>
+</body>
+</html>
